@@ -1,4 +1,7 @@
 get '/' do
-  # Look in app/views/index.erb
   erb :index
+end
+
+get '/new' do
+  erb :new_note
 end
